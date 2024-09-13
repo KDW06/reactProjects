@@ -1,12 +1,12 @@
 import React from "react"
-import './App.css'
-import Result from './components/Result'
+import './App.css' //css
+import Result from './components/Result' //result import
 
 const App = () =>{
     return (
     <main className='react-calculator'>
 
-        <Result/>
+        <Result value={200}/>
 
         <div className="numbers">
             <button>1</button>
