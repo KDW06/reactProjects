@@ -5,7 +5,7 @@ const Result = (props) => {
     return (
         <div className="result">
     
-            <span>0</span>
+            <span>1</span>
         </div>
     )
 }
